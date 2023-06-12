@@ -1,3 +1,10 @@
+/* This is a React component that allows users to sign up, log in, and log in with Google using
+Firebase authentication. It imports necessary functions from the Firebase auth library and
+initializes the Firebase app with the provided configuration. The component uses the useState hook
+to manage form data and updates the state when the user types in the input fields. The component
+also includes functions to handle form submissions for sign up, log in, and Google log in. The
+component renders two forms for sign up and log in, respectively, and a button for Google log in. */
+
 import React, { useState } from "react";
 import { initializeApp } from "firebase/app";
 import {
